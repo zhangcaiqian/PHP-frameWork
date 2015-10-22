@@ -1,0 +1,154 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+	font-size: 14px;
+	font-weight: 700;
+}
+body{
+	background-color: #f0f8ff;
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+	display: block;
+	font-size: 10px;
+}
+a:hover{
+	color:#f00;
+}
+#table{
+	width:100%;
+	border:#999 solid 1px;
+	border-radius: 4px;
+	margin:20px auto;
+	padding-top: 10px;
+}
+#table th{
+	font-size: 15px;
+	color:rgb(0,28,88);
+}
+#table td{
+	height:30px;
+	border:0;
+}
+#table tr{
+	border:0;
+	background-color: #fff;
+}
+#table tr:hover{
+	background-color: #f8f8ff;
+}
+#table li{
+	width:100px;
+	height:26px;
+	background-color:rgb(0,28,88);
+	border-radius: 4px;
+	line-height: 26px;
+	text-align: center;
+}
+#sub{
+	width:60px;
+	height:24px;
+	line-height: 24px;
+	background-color: #6495ed;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-family: "微软雅黑";
+	font-size:12px;
+	border-radius: 4px;
+}
+
+#show{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	/*background-color: #fff;*/
+	position: relative;
+}
+#show h4{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	font-size:15px;
+	text-align: center;
+	color:#00008b;
+}
+
+#show .btn{
+	width:100px;
+	height:26px;
+	background-color: rgb(0,28,88);
+	border-radius: 4px;
+	text-align: center;
+	line-height: 26px;
+}
+#show ul{
+	display: block;
+	border:#ccc solid 1px;
+	background-color: #fff;
+	text-indent: 10px;
+}
+#show ul:hover{
+	background-color: #ccc;
+}
+#show ul li{
+	float:left;
+	font-size: 12px;
+}
+#show p{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	font-family: "黑体";
+	color:#00f;
+	background-color: #f0f8ff;
+}
+#show .act a{
+	color:#f00;
+	display: block;
+	font-size:11px;
+}
+#show .act{
+	margin:0px;
+	padding:0px;
+	text-align: center;
+}
+#show .act a:hover{
+	color:#00f;
+	background-color: #f00;
+}
+#table .delete{
+	color:#f00;
+}
+#table .delete:hover{
+	color:#00f;
+	background-color: #f00;
+}
+
+
+ #page a{
+        color:#f00;
+        display: inline;
+        background-color: #fff;
+        border:#ccc solid 1px;
+        font-size: 14px;
+        padding:2px;
+        margin-right: 5px;
+    }
+    #page a:hover{
+        color:#00f;
+    }
+    #page span{
+        width:20px;
+        height: 20px;
+        line-height: 20px;
+        background-color: #fff;
+        border:#ccc solid 1px;
+        margin-right: 5px;
+    }
